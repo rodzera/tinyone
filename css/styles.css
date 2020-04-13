@@ -82,7 +82,7 @@ header {
     display: none;
 }
 
-.section-one .header-container a:hover {
+.section-one .header-container .logo a:hover, .header-nav a:hover {
     opacity:0.6;
 }
 
@@ -99,6 +99,25 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.slideshow-container-two {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fcdb00;
+    display: none;
+    justify-content: space-between;
+}
+
+.slideshow-container-three {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fcdb00;
+    display: none;
+    justify-content: space-between;
+}
+
   
 .slideshow-container .slideshow-text {
     padding: 38px 0;
@@ -156,7 +175,7 @@ header {
     cursor: pointer;
     height: 12.5px;
     width: 12.5px;
-    margin: 3.5px;
+    margin: 3px;
     background-color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -232,6 +251,14 @@ header {
     float: left;
     margin-right: 30px;
     margin-bottom: 200px;
+}
+
+.section-two .features .features-content:first-child .img {
+    margin-right: 42px;
+}
+
+.section-two .features .features-content:last-child .img {
+    margin-right: 44px;
 }
   
 .section-two .features .features-content {
@@ -402,7 +429,7 @@ button {
         display: block;
         text-align: center;
         background-color: #010101;
-        padding: 15px 28px;
+        padding: 17.5px 28px;
     }
 
     .section-one .header-container .header-nav.responsive a {
@@ -434,6 +461,18 @@ button {
         justify-content: center;
         flex-direction: column;
     }
+
+    .slideshow-container-two {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .slideshow-container-three {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     
     .slideshow-container .slideshow-text {
         padding: 38px 0;
@@ -459,7 +498,7 @@ button {
     }
 
     .slideshow-dots .dot {
-        margin: 0 3.5px 10px 0;
+        margin: 0 3px 10px 3px;
     }
     
     .section-two .features-paragraph {
@@ -468,7 +507,13 @@ button {
     }
 
     .section-three .footer-paragraph {
-        padding: 0 50px;
+        padding: 0 70px;
+    }
+
+    .section-three .footer-paragraph {
+        width: 100%;
+        max-width: 80%;
+        padding: 0px;
     }
     
     .section-three .newsletter .form {
@@ -508,5 +553,71 @@ button {
 }
 
 @media all and (max-width: 468px) {
+    .slideshow-container .slideshow-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
       
+    .slideshow-container .slideshow-text h1 {
+        margin: 8px 0;
+    }
+      
+    .slideshow-container .slideshow-text h3 {
+        margin: 8px 0;
+        width: 65%;
+    }
+      
+    .slideshow-container .slideshow-text p {
+        margin: 8px 0;
+        width: 75%;
+    }
+
+    .slideshow-container .slideshow-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slideshow-container .slideshow-img img {
+        margin: 8px 0px;
+        height: 400px;    
+    }
+
+    .section-three .footer-paragraph {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .section-three .footer-paragraph p {
+        width: 100%;
+        max-width: 70%;
+    }
+
+    .section-three .newsletter .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-three .newsletter .form .input  {
+        margin: 5px 0;
+        max-width: 100%;
+    }
+
+    .section-three .newsletter .form .button  {
+        margin: 5px 0;
+        max-width: 30%;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    .slideshow-container .slideshow-text h1 {
+        max-width: 85%;
+    }
+    .slideshow-container .slideshow-img img {
+        height: 350px;    
+    }
 }
