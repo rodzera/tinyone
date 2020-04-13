@@ -32,14 +32,14 @@ header {
     max-width: 1440px;
 }
 
-.section-one {
+.page-one {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
   background: #fcdb00;
 }
 
-.section-one .header-container {
+.page-one .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,39 +50,39 @@ header {
     padding: 55px 0;
 }
 
-.section-one .header-container .logo {
+.page-one .header-container .logo {
     display: flex;
     align-items: center;
 }
 
-.section-one .header-container .logo  p {
+.page-one .header-container .logo  p {
     font-size: 28px;
 }
 
-.section-one .header-container .logo img {
+.page-one .header-container .logo img {
     margin-top: 4px;
     height: 40px;
     margin-left: 32px;
     margin-right: 8px;
 }
 
-.section-one .header-container a, li {
+.page-one .header-container a, li {
   color: #010101;
   font-weight: 700;
 }
 
-.section-one .header-container .header-nav li {
+.page-one .header-container .header-nav li {
   display: inline-block;
   text-transform: capitalize;
   font-size: 22px;
   padding: 0 28px;
 }
 
-.section-one .header-container .responsive-menu {
+.page-one .header-container .responsive-menu {
     display: none;
 }
 
-.section-one .header-container .logo a:hover, .header-nav a:hover {
+.page-one .header-container .logo a:hover, .header-nav a:hover {
     opacity:0.6;
 }
 
@@ -188,7 +188,7 @@ header {
     background-color: #717171;
 }
 
-.section-two {
+.page-two {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -197,7 +197,7 @@ header {
     background: #fff;
 }
   
-.section-two .features-paragraph h1 {
+.page-two .features-paragraph h1 {
     margin: 5px;
     color: #010101;
     font-weight: 700;
@@ -205,13 +205,13 @@ header {
     text-transform: capitalize;
 }
   
-.section-two .features-paragraph p {
+.page-two .features-paragraph p {
     color: #313841;
     font-weight: 400;
     font-size: 18px;
 }
   
-.section-two .features-paragraph {
+.page-two .features-paragraph {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,21 +222,21 @@ header {
     text-align: center;
 }
   
-.section-two .features h2 {
+.page-two .features h2 {
     margin-bottom: 5px;
     color: #010101;
     font-weight: 400;
     font-size: 20px;
 }
   
-.section-two .features p {
+.page-two .features p {
     margin: 5px 0;
     color: #898989;
     font-weight: 400;
     font-size: 16px;
 }
   
-.section-two .features {
+.page-two .features {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -247,26 +247,26 @@ header {
     margin-bottom: 40px;
 }
   
-.section-two .features .features-content .img {
+.page-two .features .features-content .img {
     float: left;
     margin-right: 30px;
     margin-bottom: 200px;
 }
 
-.section-two .features .features-content:first-child .img {
+.page-two .features .features-content:first-child .img {
     margin-right: 42px;
 }
 
-.section-two .features .features-content:last-child .img {
+.page-two .features .features-content:last-child .img {
     margin-right: 44px;
 }
   
-.section-two .features .features-content {
+.page-two .features .features-content {
     height: 200px;
     max-width: 280px;
 }
 
-.section-three {
+.page-three {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -275,7 +275,7 @@ header {
     background-color: #232527;
 }
   
-.section-three .footer-paragraph {
+.page-three .footer-paragraph {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -287,20 +287,20 @@ header {
     text-align: center;
 }
   
-.section-three .footer-paragraph h1 {
+.page-three .footer-paragraph h1 {
     margin: 10px;
     color: #fcdb00;
     font-weight: 700;
     font-size: 28px;
 }
   
-.section-three .footer-paragraph p {
+.page-three .footer-paragraph p {
     color: #898989;
     font-weight: 400;
     font-size: 18px;
 }
   
-.section-three .newsletter .form {
+.page-three .newsletter .form {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -308,7 +308,7 @@ header {
     margin: 0 auto;
 }
   
-.section-three .newsletter .form .input {
+.page-three .newsletter .form .input {
     height: 50px;
     width: 550px;
     margin-right: 12px;
@@ -321,7 +321,7 @@ header {
     color: #898989;
 }
   
-.section-three .newsletter .form .button {
+.page-three .newsletter .form .button {
     height: 50px;
     width: 120px;
     text-transform: uppercase;
@@ -343,7 +343,7 @@ button {
     cursor: pointer;
 }
   
-.section-three .social-media {
+.page-three .social-media {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -351,7 +351,7 @@ button {
     margin: 70px auto;
 }
   
-.section-three .social-media .social-item{
+.page-three .social-media .social-item{
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -362,11 +362,11 @@ button {
     transition: filter 0.2s;
 }
   
-.section-three .social-media .social-item:hover{
+.page-three .social-media .social-item:hover{
     filter: brightness(60%)
 }
   
-.section-three .footer {
+.page-three .footer {
     display: flex;
     justify-content: space-between;
     margin: 30px auto 120px auto;
@@ -377,12 +377,12 @@ button {
 
 }
   
-.section-three .footer .footer-contact p {
+.page-three .footer .footer-contact p {
     font-size: 15px;
     text-transform: capitalize;
 }
   
-.section-three .footer .footer-content li {
+.page-three .footer .footer-content li {
     font-size: 15px;
     text-decoration: transparent;
     color: #fff;
@@ -395,7 +395,7 @@ button {
 
 @media all and (max-width: 950px) {
 
-    .section-two .features {
+    .page-two .features {
         justify-content: space-around;
         padding: 0 20px;
     }
@@ -403,45 +403,45 @@ button {
 
 @media all and (max-width: 768px) {
 
-    .section-one .header-container {
+    .page-one .header-container {
         padding: 60px 0 0 0;
         flex-direction: column;
     }
 
-    .section-one .header-container .logo {
+    .page-one .header-container .logo {
         width: 100%;
     }
 
     /* responsive menu below */
 
 
-    .section-one .header-container .header-nav {
+    .page-one .header-container .header-nav {
         display: none;
     }
 
-    .section-one .header-container .header-nav.responsive {
+    .page-one .header-container .header-nav.responsive {
         display: block;
         width: 100%;
         margin-top: 30px;
     }
 
-    .section-one .header-container .header-nav.responsive li {
+    .page-one .header-container .header-nav.responsive li {
         display: block;
         text-align: center;
         background-color: #010101;
         padding: 17.5px 28px;
     }
 
-    .section-one .header-container .header-nav.responsive a {
+    .page-one .header-container .header-nav.responsive a {
         color: #fcdb00;
     }
 
-    .section-one .header-container .header-nav a:hover {
+    .page-one .header-container .header-nav a:hover {
         opacity: 1;
         color: #fff;    
 }
       
-    .section-one .header-container .responsive-menu {
+    .page-one .header-container .responsive-menu {
         display: block;
         padding: 67px 32px;
         position: absolute;
@@ -450,7 +450,7 @@ button {
         font-size: 32px;
     }
 
-    .section-one .header-container .responsive-menu .fas {
+    .page-one .header-container .responsive-menu .fas {
         cursor: pointer;
     }
 
@@ -501,26 +501,26 @@ button {
         margin: 0 3px 10px 3px;
     }
     
-    .section-two .features-paragraph {
+    .page-two .features-paragraph {
         width: 100%;
         max-width: 70%;
     }
 
-    .section-three .footer-paragraph {
+    .page-three .footer-paragraph {
         padding: 0 70px;
     }
 
-    .section-three .footer-paragraph {
+    .page-three .footer-paragraph {
         width: 100%;
         max-width: 80%;
         padding: 0px;
     }
     
-    .section-three .newsletter .form {
+    .page-three .newsletter .form {
         max-width: 80%;
     }
     
-    .section-three .footer {
+    .page-three .footer {
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -528,20 +528,20 @@ button {
         margin: 20px auto 80px auto;
     }
 
-    .section-three .footer .footer-contact {
+    .page-three .footer .footer-contact {
         margin-bottom: 40px;
     }
 
-    .section-three .footer .footer-content:not(:last-child) {
+    .page-three .footer .footer-content:not(:last-child) {
         margin-bottom: 40px;
     }
       
-    .section-three .footer .footer-contact p {
+    .page-three .footer .footer-contact p {
         font-size: 15px;
         text-transform: capitalize;
     }
       
-    .section-three .footer .footer-content li {
+    .page-three .footer .footer-content li {
         font-size: 15px;
         text-decoration: transparent;
         color: #fff;
@@ -584,29 +584,29 @@ button {
         height: 400px;    
     }
 
-    .section-three .footer-paragraph {
+    .page-three .footer-paragraph {
         width: 100%;
         max-width: 100%;
     }
 
-    .section-three .footer-paragraph p {
+    .page-three .footer-paragraph p {
         width: 100%;
         max-width: 70%;
     }
 
-    .section-three .newsletter .form {
+    .page-three .newsletter .form {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .section-three .newsletter .form .input  {
+    .page-three .newsletter .form .input  {
         margin: 5px 0;
         max-width: 100%;
     }
 
-    .section-three .newsletter .form .button  {
+    .page-three .newsletter .form .button  {
         margin: 5px 0;
         max-width: 30%;
     }
