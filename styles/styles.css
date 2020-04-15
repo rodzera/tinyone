@@ -495,6 +495,10 @@ body {
   max-width: 700px;
   margin: 70px auto;
 }
+.page-3 .social-media ul {
+  display: flex;
+  flex-direction: row;
+}
 .page-3 .social-media li {
   margin: 0 15px;
 }
