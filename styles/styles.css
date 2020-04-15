@@ -80,6 +80,8 @@ body {
 }
 .page-1 .header-container .logo img {
   height: 40px;
+}
+.page-1 .header-container .logo div:first-child {
   margin-top: 4px;
   margin-right: 8px;
   margin-left: 32px;
@@ -492,14 +494,16 @@ body {
   max-width: 700px;
   margin: 70px auto;
 }
+.page-3 .social-media li {
+  margin: 0 15px;
+}
 .page-3 .social-media .social-item {
   display: inline-block;
   width: 35px;
   height: 35px;
+  padding: 5px;
   border-radius: 5px;
   background-color: #fcdb00;
-  margin: 0 15px;
-  padding: 5px;
 }
 .page-3 .social-media .social-item:hover {
   filter: brightness(60%);

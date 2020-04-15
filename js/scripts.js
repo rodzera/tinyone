@@ -25,7 +25,6 @@ $("#dot-2").click(function() {
     $("#slide-1").removeClass("active")
     $("#slide-2").addClass("active")
     $("#slide-3").removeClass("active")
-
 });
 
 $("#dot-3").click(function() {
@@ -36,5 +35,4 @@ $("#dot-3").click(function() {
     $("#slide-1").removeClass("active")
     $("#slide-2").removeClass("active")
     $("#slide-3").addClass("active")
-
 });

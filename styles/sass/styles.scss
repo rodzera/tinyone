@@ -81,7 +81,7 @@ $primary-color: #fcdb00;
         .logo a:hover, .header-nav a:hover {
             opacity:0.6;
         }
-
+        //logo
         .logo {
             display: flex;
             align-items: center;
@@ -89,9 +89,12 @@ $primary-color: #fcdb00;
             p {
                 font-size: 28px;
             }
-        
+
             img {
                 height: 40px;
+            }
+        
+            div:first-child {
                 margin-top: 4px;
                 margin-right: 8px;
                 margin-left: 32px;
@@ -536,16 +539,19 @@ $primary-color: #fcdb00;
         width: 100%;
         max-width: 700px;
         margin: 70px auto;
+
+        li {
+            margin: 0 15px;
+        }
     
         .social-item{
             display: inline-block;
             width: 35px;
             height: 35px;
+            padding: 5px;
             border-radius: 5px;
             background-color: #fcdb00;
-            margin: 0 15px;
-            padding: 5px;
-        
+                    
             &:hover{
                 filter: brightness(60%)
             }    
