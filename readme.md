@@ -7,12 +7,11 @@ Responsive website layout built with:
 * jQuery
 * Sass
 
-```
-Original layout inside img folder
-```
-
 ## Link to page
 
 https://rodsup.github.io/tinyone/
 
+```
+Original layout inside img folder
+```
 
