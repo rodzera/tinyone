@@ -458,6 +458,7 @@ body {
   border-radius: 5px;
   border-style: none;
   color: #898989;
+  padding: 10px;
 }
 @media screen and (max-width: 468px) {
   .page-3 .newsletter .form .input {
