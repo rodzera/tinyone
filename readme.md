@@ -4,8 +4,8 @@ responsive website layout built with:
 
 * HTML5
 * CSS3
-* Javascript
 * jQuery
+* SASS
 
 
 ```
