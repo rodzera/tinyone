@@ -20,19 +20,11 @@ a {
   transition: all 300ms;
 }
 
-body {
-  width: 100%;
-  max-width: 1440px;
-  height: 100vh;
-  margin: 0 auto;
-  -web-font-smoothing: antialiased;
-}
-
 .dot, .button, .fas {
   cursor: pointer;
 }
 
-.page-3, .page-2, .page-1 {
+.page-3, .page-2, .page-1, body {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
@@ -42,6 +34,10 @@ body {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
+}
+
+body {
+  height: 100vh;
 }
 
 .page-1 {
@@ -160,9 +156,10 @@ body {
 }
 @media screen and (max-width: 768px) {
   .slideshow-container .slideshow-content.active {
-    align-items: center;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 .slideshow-container .slideshow-content {
@@ -330,8 +327,8 @@ body {
 .page-2 .features .features-paragraph {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 700px;
   margin: 80px auto;
@@ -376,10 +373,10 @@ body {
   margin-right: 30px;
   margin-bottom: 200px;
 }
-.page-2 .features .features-content :first-child .img {
+.page-2 .features .features-content:nth-child(2) .img {
   margin-right: 42px;
 }
-.page-2 .features .features-content :last-child .img {
+.page-2 .features .features-content:last-child .img {
   margin-right: 44px;
 }
 
@@ -391,8 +388,8 @@ body {
 .page-3 .newsletter .newsletter-paragraph {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 900px;
   margin: 80px auto 40px auto;
@@ -523,8 +520,9 @@ body {
 }
 @media screen and (max-width: 768px) {
   .page-3 .footer {
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 20px auto 80px auto;
