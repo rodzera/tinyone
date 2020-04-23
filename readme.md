@@ -10,6 +10,6 @@ Responsive website layout built with:
 
 ## Link to page
 
-https://rodsup.github.io/tinyone/
+https://rodsup.github.io/tinyone/dist/index.html 
 
 Original layout inside img folder.
