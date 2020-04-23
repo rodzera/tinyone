@@ -1,8 +1,4 @@
 node_modules/
 .sass-cache
 .DS_Store
-src/styles/**/*.scss
-src/styles/**/*.css
-src/scripts/**/*.js
-src/views/**/*.html
-dist/
+
