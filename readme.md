@@ -6,6 +6,7 @@ Responsive website layout built with:
 * CSS3
 * jQuery
 * Sass
+* Gulp
 
 ## Link to page
 
