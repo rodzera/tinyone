@@ -1,12 +1,12 @@
 # Tinyone
 
-Responsive website layout built with:
+Responsive landing page built with:
 
 * HTML5
 * CSS3
 * jQuery
 * Sass
-* Gulp
+* Gulp 4
 
 ## Link to page
 
