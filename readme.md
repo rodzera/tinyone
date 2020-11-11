@@ -8,7 +8,7 @@ Responsive landing page built with:
 * Sass
 * Gulp 4
 
-## Link to page
+## Link
 
 * Access the page [here](https://rodsup.github.io/tinyone/dist/index.html).
 * Original layout inside img folder.
