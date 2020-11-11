@@ -6,7 +6,7 @@ Responsive landing page built with:
 * CSS3
 * jQuery
 * Sass
-* Gulp 4
+* Gulp.js
 
 ## Link
 
